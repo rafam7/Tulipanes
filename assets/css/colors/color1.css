@@ -1,0 +1,214 @@
+.brand-text {
+    color: rgb(29, 97, 6) !important;
+}
+
+.brand-text i {
+    color: #00bcd4 !important;
+}
+
+.brand-bg,
+.sweet-alert button {
+    background-color: #1e3e42 !important;
+}
+
+.waves-effect.waves-brand  {
+    background-color: rgba(0, 188, 212, 0.66);
+}
+
+.p-overlay {
+    background-color: rgba(0, 188, 212, 0.9);
+}
+
+
+
+.seciones{
+    padding-top: 4.75em  !important;
+}
+
+.cont_centrado{
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* DESCANSO*/
+.menu{
+    background: url(../../../images/menu.jpg) no-repeat top center;
+    padding-top: 6em ;
+    padding-bottom: 10em;
+    color:#fff;
+    text-shadow:-4px 2px 6px #000000;
+    position: relative;
+    font-size: 1.2em;
+    background-size: cover;
+}
+
+.cont_info_descanso{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.menu h1:first-child {
+    font-weight: 500;
+    font-size: 3em;
+    color: #c79c60;
+    text-align: center;
+}
+
+.gradiente_3{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(12,13,13,0.66);
+    background: -moz-linear-gradient(top, rgba(12,13,13,0.66) 0%, rgba(12,13,13,0.73) 35%, rgba(0,0,0,0.85) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(12,13,13,0.66)), color-stop(35%, rgba(12,13,13,0.73)), color-stop(100%, rgba(0,0,0,0.85)));
+    background: -webkit-linear-gradient(top, rgba(12,13,13,0.66) 0%, rgba(12,13,13,0.73) 35%, rgba(0,0,0,0.85) 100%);
+    background: -o-linear-gradient(top, rgba(12,13,13,0.66) 0%, rgba(12,13,13,0.73) 35%, rgba(0,0,0,0.85) 100%);
+    background: -ms-linear-gradient(top, rgba(12,13,13,0.66) 0%, rgba(12,13,13,0.73) 35%, rgba(0,0,0,0.85) 100%);
+    background: linear-gradient(to bottom, rgba(12,13,13,0.66) 0%, rgba(12,13,13,0.73) 35%, rgba(0,0,0,0.85) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c0d0d', endColorstr='#000000', GradientType=0 );
+}
+
+
+/* RESERVACIONES*/
+
+.reservacion{
+    background: url(../../../images/bg_reservacion.jpg) no-repeat top center;
+    padding-top: 6em ;
+    padding-bottom: 10em;
+    color:#fff;
+    text-shadow:-4px 2px 6px #000000;
+    position: relative;
+    font-size: 1.2em;
+    background-size: cover;
+}
+
+.cont_info_reservacion{
+    position: relative;
+    z-index: 1;
+}
+
+.reservacion h1:first-child {
+    font-weight: 500;
+    font-size: 3em;
+    color: #c79c60;
+    text-align: center;
+}
+
+/* ------- */
+
+.cambio
+{
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.btn_color{
+    border: .2em solid #ffffff;
+    color: #ffffff !important;
+    border-radius: .5em;
+    background: #00612e;
+}
+
+
+.btn_transp:hover,
+.btn_color:hover{
+    background: rgba(0,97,45,0.65);
+    background: -moz-linear-gradient(45deg, rgba(0,97,45,0.65) 0%, rgba(0,97,45,0.7) 43%, rgba(0,97,45,0.76) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,97,45,0.65)), color-stop(43%, rgba(0,97,45,0.7)), color-stop(100%, rgba(0,97,45,0.76)));
+    background: -webkit-linear-gradient(45deg, rgba(0,97,45,0.65) 0%, rgba(0,97,45,0.7) 43%, rgba(0,97,45,0.76) 100%);
+    background: -o-linear-gradient(45deg, rgba(0,97,45,0.65) 0%, rgba(0,97,45,0.7) 43%, rgba(0,97,45,0.76) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0,97,45,0.65) 0%, rgba(0,97,45,0.7) 43%, rgba(0,97,45,0.76) 100%);
+    background: linear-gradient(45deg, rgba(0,97,45,0.65) 0%, rgba(0,97,45,0.7) 43%, rgba(0,97,45,0.76) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00612d', endColorstr='#00612d', GradientType=1 );
+}
+
+/* ------- */
+
+
+.circle-loader .path {
+    stroke: #00bcd4;
+}
+
+
+.side-nav  li.current a,
+.side-nav  li a:hover {
+    border-bottom-color: #1d6106;
+}
+
+.static-menu li i:hover,
+.static-menu li a:hover,
+.submenu-ul li a:hover,
+.home-title span,
+.about-subtitle,
+.person-about > a.btn-large,
+.about-social ul li a i,
+.skill-title,
+.skill-count,
+.single-widget ul li a,
+.single-post-content a,
+.share-post li a:hover,
+.com-title a,
+span.num {
+    color: #1d6106;
+}
+
+.singel-hr-inner,
+.hr-wrap,
+.hrc:after,
+.thumb-slides-container.owl-theme .owl-controls .owl-page.active span,
+.blog-inner .card-content a.right:hover,
+.blog-inner .card-content a.right:focus,
+.contact-form .submit-btn:hover,
+.contact-form .submit-btn:focus,
+a.tags,
+.blog-inner .card-content a.right:active {
+    background-color: #1d6106;
+}
+
+.contact-form .materialize-textarea:focus,
+.contact-form .input-box:focus {
+    border-color: #1d6106;
+    box-shadow: 0px 1px 0px #1d6106;
+}
+
+
+.single-post-content blockquote {
+    border-left: 5px solid #00bcd4;
+}
+
+
+
+@-webkit-keyframes color {
+    0%   {stroke: #00bcd4;}
+    20%  {stroke: #00bcd4;}
+    25%  {stroke: #00bcd4;}
+    45%  {stroke: #00bcd4;}
+    50%  {stroke: #00bcd4;}
+    70%  {stroke: #00bcd4;}
+    75%  {stroke: #00bcd4;}
+    95%  {stroke: #00bcd4;}
+}
+
+@keyframes color {
+    0%   {stroke: #00bcd4;}
+    20%  {stroke: #00bcd4;}
+    25%  {stroke: #00bcd4;}
+    45%  {stroke: #00bcd4;}
+    50%  {stroke: #00bcd4;}
+    70%  {stroke: #00bcd4;}
+    75%  {stroke: #00bcd4;}
+    95%  {stroke: #00bcd4;}
+}
+
+
+/* Add your CSS below */
+
+
+
+
+.menu-select [type="radio"]:checked + label:after {
+    border-color: #00bcd4;
+    background-color: #00bcd4;
+}
