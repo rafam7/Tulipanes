@@ -23,6 +23,7 @@
 
 .seciones{
     padding-top: 4.75em  !important;
+    padding-bottom: 7%;
 }
 
 .cont_centrado{
@@ -30,11 +31,11 @@
     width: 70%;
 }
 
-/* DESCANSO*/
+/* MENU */
 .menu{
     background: url(../../../images/menu.jpg) no-repeat top center;
     padding-top: 6em ;
-    padding-bottom: 10em;
+    padding-bottom: 4em;
     color:#fff;
     text-shadow:-4px 2px 6px #000000;
     position: relative;
@@ -53,6 +54,7 @@
     font-size: 3em;
     color: #c79c60;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .gradiente_3{

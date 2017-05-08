@@ -301,8 +301,10 @@ body {
     color: #444444;
 }
 .section-call-to-btn.button-middle {
-    left: 50%;
-    margin-left: -27px;
+    right: 2%;
+    bottom: 10%;
+    position: fixed;
+   
 }
 .section-call-to-btn.button-right-1 {
     right: 47px;
@@ -391,13 +393,14 @@ section.brand-bg .title {
  ----------------------------------- */
 
 header.nav {
+    background: #fff;
     box-shadow: 0 1px 6px rgba(0,0,0,.35);
     width: 100%;
     top: 0px;
     position: fixed;
     z-index: 999;
     -webkit-transition: top .5s;
-            transition: top .5s;
+    transition: top .5s;
 }
 header.nav.hide-menu {
     top: -90px;
@@ -1581,7 +1584,7 @@ span.num {
 }
 
 .copyright p {
-    color: #333;
+    color: #fff;
     font-size: 12px;
     line-height: 20px;
 }
