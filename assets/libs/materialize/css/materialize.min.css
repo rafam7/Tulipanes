@@ -5306,11 +5306,12 @@ small {
 .card-panel {
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
+  padding-top: 4em;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   background-clip: padding-box;
-  background-color: #fff; }
+  background-color: #610808; }
 
 .card {
   position: relative;
